@@ -10,6 +10,7 @@ function createWindow() {
     minHeight: 480,
     backgroundColor: '#0b1a24',
     title: 'Hamim Bird',
+    icon: path.join(__dirname, 'build', 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: { contextIsolation: true }
   });
